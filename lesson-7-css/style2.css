@@ -1,0 +1,12 @@
+a[href$="#"] {
+    color: blue;
+}
+
+a[href^="https://"] {
+    color: grey;
+}
+
+a[href$="yandex.ru"] {
+    color: orange;
+}
+
