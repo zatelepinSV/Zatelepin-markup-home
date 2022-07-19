@@ -3,10 +3,18 @@ a[href$="#"] {
 }
 
 a[href^="https://"] {
-    color: grey;
+    color: #666;
+    border-bottom: red;
 }
 
 a[href$="yandex.ru"] {
-    color: orange;
+    color: #f70;
 }
 
+li {
+    font-size: 30px;
+    font-weight: bold;
+}
+.underline {
+    border-bottom: 10px solid #666;
+}
