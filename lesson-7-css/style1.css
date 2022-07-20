@@ -63,3 +63,9 @@ tr ~ tr ~ tr td + td {
     background-color: green;
     color: white;
 }
+
+P:first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
