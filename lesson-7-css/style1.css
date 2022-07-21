@@ -19,23 +19,23 @@ li span {
     font-weight: bold;
 }
 
-h2 ~ h2 {
+h2 + ul + h2 {
     color: blue;
 }
 
-ol li {
+ul > li > ol > li {
     color: gray;
 }
 
-li ~ li ol li {
+li + li > ol > li {
     color: red;
 }
 
-ul ~ ul li ol li {
+ul + h2 + ul > li > ol > li {
     color: green;
 }
 
-ul ~ ul li ~ li ol li {
+ul + h2 + ul > li + li > ol > li {
     color: red;
 }
 
@@ -52,13 +52,13 @@ tr, td {
     border: 1px solid black;
 }
 
-tr ~ tr ~ tr td {
+tr + tr + tr > td {
     text-align: left;
     background-color: white;
     color: orange;
 }
 
-tr ~ tr ~ tr td + td {
+tr + tr + tr > td + td {
     text-align: center;
     background-color: green;
     color: white;
