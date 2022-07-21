@@ -11,7 +11,7 @@ li {
     font-weight: bold;
 }
 
-a[href^="http://"] {
+a[href^="http://"] { /*или можно указать через атрибут [title$="Google"]*/
     text-decoration: none;
     color: #666;
     border-bottom: 2px solid currentColor;
