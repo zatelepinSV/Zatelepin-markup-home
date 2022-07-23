@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    width: 1032px;
+}
+/*Стиль для секции nav*/
+nav {
+    background-color: #A64DFF;
+}
+/*Убирает маркеры*/
+nav ul {
+    list-style-type: none;
+}
+/*Отображает список в линию*/
+nav li {
+    display: inline;
+    margin: 0;
+}
+/*Стиль для ссылок а */
+.menu li a {
+    padding: 17px 16px;
+    text-decoration: none;
+    color: white;
+    line-height: 38px;
+    font-size: 17px;
+    margin: 0 20px;
+}
+/*Стиль при наведении мыши*/
+.menu li a:hover {
+    background-color: #eee;
+    color: #9faabc;
+}
+/*Обнуляет отступы*/
+.menu {
+    padding: 0 58px;
+}
+/*Показывает скрытое меню*/
+ul.menu > li:hover > ul.submenu {
+    display: inherit;
+}
+/*Стиль для выпадающего меню*/
+.submenu {
+    display: none;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    background-color: #eee;
+}
+/*Стиль для ссылок в выпадающем меню*/
+.submenu li a {
+    color: #9faabc;
+    font-size: 12px;
+    padding: 15px;
+}
+/*Стиль для ссылок при наведении в выпадающем меню*/
+.submenu li a:hover {
+    background-color: #1aa4ff;
+    color: white;
+}
