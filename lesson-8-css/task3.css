@@ -1,7 +1,6 @@
 table {
     border-collapse: collapse;
     margin-left: 29px;
-
     text-align: center;
     font-size: 32px;
     font-weight: 100;
@@ -11,11 +10,7 @@ table {
 td {
     padding: 3px 22px 12px 20px;
 }
-/*
-tr {
-    padding: 1px;
-}
-*/
+
 tr:nth-child(2n) {
     background: #DDEBF6;
     border: 2px solid #CDCED0;
