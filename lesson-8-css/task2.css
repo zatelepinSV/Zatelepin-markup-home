@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 body{
     font-family: 'Oswald', sans-serif;
-    width: 1032px;
+    margin: 0 444px; /* width: 1032px; */
 }
 /*Стиль для секции nav*/
 nav {
@@ -18,12 +18,12 @@ nav li {
 }
 /*Стиль для ссылок а */
 .menu li a {
-    padding: 17px 16px;
+    padding: 7px 13px;
     text-decoration: none;
     color: white;
     line-height: 38px;
     font-size: 17px;
-    margin: 0 20px;
+
 }
 /*Стиль при наведении мыши*/
 .menu li a:hover {
@@ -32,7 +32,7 @@ nav li {
 }
 /*Обнуляет отступы*/
 .menu {
-    padding: 0 58px;
+    padding: 0 61px;
 }
 /*Показывает скрытое меню*/
 ul.menu > li:hover > ul.submenu {

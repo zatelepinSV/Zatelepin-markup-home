@@ -1,17 +1,24 @@
 table {
     border-collapse: collapse;
-    width: 60%;
+    margin-left: 29px;
+
     text-align: center;
-    font-size: larger;
+    font-size: 32px;
+    font-weight: 100;
+
 }
 
 td {
-    padding: 5px 10px;
+    padding: 3px 22px 12px 20px;
 }
-
+/*
+tr {
+    padding: 1px;
+}
+*/
 tr:nth-child(2n) {
     background: #DDEBF6;
-    border: 1px solid #CDCED0;
+    border: 2px solid #CDCED0;
     border-right: 0;
     border-left: 0;
 }
