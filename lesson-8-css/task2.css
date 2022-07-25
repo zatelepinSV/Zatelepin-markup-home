@@ -39,10 +39,10 @@ nav li {
 
 /*Обнуляет отступы*/
 .menu {
-    padding: 0 61px;
+    padding: 0px 61px;
 }
 
-.menu li:last-child {
+.menu > li:last-child {
     margin-left: 270px
 }
 
