@@ -1,0 +1,74 @@
+div {
+    font-size: 25px;
+    margin: 50px 0 0 12px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    text-decoration-line: underline;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-right: 45px;
+}
+
+/* красим "выключатели" */
+label[for="red"] {
+    color: red;
+}
+
+label[for="green"] {
+    color: green;
+
+}
+
+label[for="blue"] {
+    color: blue;
+}
+
+/*задаём цвет и отступы*/
+span {
+    padding: 5px 15px;
+    color: white;
+    border-radius: 12px
+}
+
+/* красим фон */
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* прячем выбранные боксы */
+#red:checked ~ .red {
+    display: none
+}
+
+#green:checked ~ .green {
+    display: none
+}
+
+#blue:checked ~ .blue {
+    display: none
+}
+
+input#red:checked ~ label[for="red"] {
+    opacity: 0.3;
+}
+
+input#green:checked ~ label[for="green"] {
+    opacity: 0.3;
+}
+
+input#blue:checked ~ label[for="blue"] {
+    opacity: 0.3;
+}
