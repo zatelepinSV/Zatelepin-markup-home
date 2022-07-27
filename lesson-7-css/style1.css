@@ -1,0 +1,69 @@
+h1 {
+    color: orange;
+    text-align: right;
+
+}
+
+h2 {
+    color: orange;
+}
+
+p em {
+    background: green;
+    color: white;
+}
+
+li span {
+    font-weight: bold;
+}
+
+h2 + ul + h2 { /* первый раз сделал через ~, потом решил переделать*/
+    color: blue;
+}
+
+ul > li > ol > li {
+    color: gray;
+}
+
+li + li > ol > li {
+    color: red;
+}
+
+ul + h2 + ul > li > ol > li {
+    color: green;
+}
+
+ul + h2 + ul > li + li > ol > li {
+    color: red;
+}
+
+table {
+    border-collapse: separate;
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+tr + tr + tr > td {
+    text-align: left;
+    background-color: white;
+    color: orange;
+}
+
+tr + tr + tr > td + td {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+P:first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
