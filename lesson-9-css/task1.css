@@ -4,7 +4,7 @@ div {
 }
 
 input[type="checkbox"] {
-    display: none;
+    /*display: none;*/
 }
 
 label {
@@ -49,26 +49,14 @@ span {
 }
 
 /* прячем выбранные боксы */
-#red:checked ~ .red {
-    display: none
-}
-
-#green:checked ~ .green {
-    display: none
-}
-
+#red:checked ~ .red,
+#green:checked ~ .green,
 #blue:checked ~ .blue {
     display: none
 }
 
-#red:checked ~ label[for="red"] {
-    opacity: 0.3;
-}
-
-#green:checked ~ label[for="green"] {
-    opacity: 0.3;
-}
-
+#red:checked ~ label[for="red"],
+#green:checked ~ label[for="green"],
 #blue:checked ~ label[for="blue"] {
     opacity: 0.3;
 }
