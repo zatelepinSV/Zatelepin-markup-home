@@ -4,19 +4,20 @@ nav {
     max-width: 450px;
     height: 39px;
 }
+
 ul {
-    padding:8px 0 5px 0;
+    padding: 8px 0 5px 0;
 }
 
 li {
     display: inline-block;
-    font-size: 12px;
-
+    font-size: 10px;
 }
-nav a {
+
+a {
     text-decoration: none;
-    display: block;
-    padding: 3px 7px;
+    display: inline-block;
+    padding: 5px 8px;
     border: 1px solid #DDD;
     border-radius: 5px;
     color: #A13BCF;
@@ -24,18 +25,41 @@ nav a {
 
 nav a:hover, .active a {
     color: white;
-    padding: 3px 7px;
     background-color: #A13BCF;
     border: 1px solid #7C12BC;
     border-radius: 5px;
+    text-shadow: 1px 1px 1px black;
 }
 
 li span {
-    margin-top: 100px;
+    display: inline-block;
+    transform: translateY(4px);
+    margin: 0 8px;
 }
-/*
-.active a {
-    color: white;
-    background-color: #A13BCF;
-    border: 1px solid #7C12BC;
+
+.next a, .first a {
+    display: inline-block;
+    padding: 3px 7px;
+    margin-left: 5px;
+    border: 1px solid #FAFAFA;
+    color: #A13BCF;
+}
+
+.first a:hover, .next a:hover {
+    border: none;
+    padding: 4px 8px;
+}
+
+.first a:before {
+    display: inline-block;
+    content: "\00AB";
+    transform: translateY(-1px);
+    margin-right: 2px;
+}
+
+.next a:after {
+    display: inline-block;
+    content: "\00BB";
+    transform: translateY(-1px);
+    margin-left: 2px;
 }

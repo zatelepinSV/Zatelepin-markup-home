@@ -4,7 +4,7 @@ div {
 }
 
 input[type="checkbox"] {
-    /*display: none;*/
+    display: none;
 }
 
 label {
@@ -14,7 +14,6 @@ label {
     margin-right: 45px;
 }
 
-/* красим "выключатели" */
 label[for="red"] {
     color: red;
 }
@@ -28,14 +27,12 @@ label[for="blue"] {
     color: blue;
 }
 
-/*задаём цвет и отступы*/
 span {
     padding: 5px 15px;
     color: white;
     border-radius: 12px
 }
 
-/* красим фон */
 .green {
     background-color: green;
 }
@@ -48,7 +45,6 @@ span {
     background-color: blue;
 }
 
-/* прячем выбранные боксы */
 #red:checked ~ .red,
 #green:checked ~ .green,
 #blue:checked ~ .blue {
