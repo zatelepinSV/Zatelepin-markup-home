@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    display: block;
+    width: 296px;
+    height: 468px;
+    margin: 40px auto;
+    background-color: #EE8129;
+    border-radius: 5px;
+    border: 4px solid #EE8129;
+}
+
+.block1 {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.block2 {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 49px;
+    background-color: white;
+    color: #35495A;
+    font-size: 25px;
+    padding: 17px 0 0 56px;
+
+}
+
+.money {
+    position: relative;
+    top: -1px;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    color: #35495A;
+    text-align: center;
+    padding-top: 7px;
+}
+
+span {
+    font-size: 70px;
+}
+
+sub {
+    vertical-align: bottom;
+    font-size: 15px;
+}
+
+sup {
+    vertical-align: top;
+    font-size: 15px;
+}
+
+.value {
+    position: relative;
+    top: -8px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 229px;
+    background-color: white;
+    padding-top: 5px;
+}
+
+.q, .a {
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background-color: #9faabc;
+    margin: 1px auto;
+    font-size: 15px;
+    padding: 5px 0 10px 30px;
+    color: #35495A;
+}
+
+.a {
+    background-color: #F5F5F6;
+}
+
+.q {
+    background-color: #EDF5FD;
+}
+
+.enroll {
+    box-sizing: border-box;
+    display: block;
+    width: 88%;
+    background-color: #EE8129;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 17px auto;
+    text-align: center;
+    border-bottom: 3px solid #B3560B;
+    cursor: pointer;
+}
