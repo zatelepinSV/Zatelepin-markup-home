@@ -69,7 +69,6 @@ sub {
 }
 
 .d5, .d7 {
-
     background-color: #EDF5FD;
     margin: 1px auto;
     padding: 5px 0 9px 32px;
@@ -92,4 +91,5 @@ sub {
     font-size: 15px;
     border-bottom: 3px solid #B3560B;
 }
+
 /*Лучше бы я это всё делал через список...*/
