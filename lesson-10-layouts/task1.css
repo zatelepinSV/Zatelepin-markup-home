@@ -41,13 +41,14 @@ span {
 }
 
 .d2 {
-    margin-left: 60px;
+    margin-left: 68px;
     padding-top: 8px;
 }
 
 sup {
-    vertical-align: 40px;
+    vertical-align: 38px;
     font-size: 20px;
+    padding-right: 7px;
 }
 
 sub {
