@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+    width: 288px;
+    height: 460px;
+    margin: 50px auto;
+    background-color: #ff7700;
+    color: white;
+    border: 4px solid #ff7700;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 gray;
+}
+
+.block1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    margin: 23px 0 20px 5px;
+}
+
+.block2 {
+    background-color: white;
+    color: #35495A;
+    height: 387px;
+}
+
+.d1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 18px;
+    margin-left: 15px;
+}
+
+span {
+    font-size: 70px;
+}
+
+.d2 {
+    margin-left: 68px;
+    padding-top: 8px;
+}
+
+sup {
+    vertical-align: 38px;
+    font-size: 20px;
+    padding-right: 7px;
+}
+
+sub {
+    font-size: 15px;
+    vertical-align: -10px;
+}
+
+.d3 {
+    text-transform: uppercase;
+    width: 90%;
+    margin: 13px auto;
+    padding: 10px;
+}
+
+.d4, .d6 {
+    display: block;
+    padding: 5px 0 9px 32px;
+    background-color: #F5F5F6;
+}
+
+.d5, .d7 {
+    background-color: #EDF5FD;
+    margin: 1px auto;
+    padding: 5px 0 9px 32px;
+}
+
+.d6, .d7 {
+    text-transform: none;
+}
+
+.d8 {
+    width: 88%;
+    margin: -6px auto;
+    background-color: #ff7700;
+    color: white;
+    cursor: pointer;
+    padding: 12px 0 9px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 3px solid #B3560B;
+}
+
+/*Лучше бы я это всё делал через список...*/
