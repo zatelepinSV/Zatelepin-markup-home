@@ -5,6 +5,7 @@ body {
 
 h1 {
     display: block;
+    margin: 50px auto;
     text-transform: uppercase;
     color: #EE8129;
     text-align: center;
@@ -27,7 +28,7 @@ img, div {
     width: 0;
     border: 15px solid;
     border-color: transparent white transparent transparent;
-    margin-bottom: 34px;
+    margin-bottom: 35px;
     margin-left: -8px;
 }
 
@@ -35,11 +36,10 @@ img, div {
     box-sizing: border-box;
     float: right;
     background-color: white;
-    width: 360px;
-    height: 100px;
+    max-width: 360px;
     padding: 10px;
-    margin-right: 49px;
     text-align: left;
+    margin-right: 50px;
 }
 
 .text span {
@@ -47,14 +47,18 @@ img, div {
     float: right;
 }
 
-p {
+p + p {
     box-sizing: border-box;
-    padding-top: 5px;
-    border-top: 2px dotted #666;
+    margin: 5px auto;
     color: #937FA7;
+    line-height: 20px;
 }
 
-b {
+.text p:first-child{
     font-style: italic;
     font-weight: bold;
+    color: #3170A8;
+    border-bottom: 3px dotted black;
+    padding:5px 0;
+    margin: 0;
 }
