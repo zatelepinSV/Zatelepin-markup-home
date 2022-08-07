@@ -1,0 +1,67 @@
+/* Write your code here */
+
+body {
+    background: url("../images/plans-background.jpg") no-repeat;
+    background-size: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#plus, #premium, #free {
+    color: black;
+    width: 70%;
+    background-color: rgb(176, 176, 174, 0.8);
+    border: 3px solid #95746F;
+    border-left: 0;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+.recommended {
+    background-color: red;
+    color: white;
+    float: right;
+    padding: 5px;
+}
+
+.text, .text2, .text3 {
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    color: #A9A9A7;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#premium {
+    width: 70%;
+    border: 3px solid #95746F;
+    border-right: 0;
+    float: right;
+    margin-top: 50px;
+    text-align: right;
+}
+
+.text2 {
+    float: right;
+    text-align: right;
+}
+
+#free {
+    float: left;
+    margin-top: 50px;
+    width: 70%;
+    background-color: rgb(146, 112, 110, 0.8);
+    border: 3px solid #95746F;
+    border-left: 0;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: rgb(176, 176, 174);
+}
