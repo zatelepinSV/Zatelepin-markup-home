@@ -1,5 +1,3 @@
-/* Write your code here */
-
 body {
     background: url("../images/plans-background.jpg") no-repeat;
     background-size: auto;
@@ -37,17 +35,17 @@ a {
     margin: 20px 0;
 }
 
+.text2 {
+    float: right;
+    text-align: right;
+}
+
 #premium {
     width: 70%;
     border: 3px solid #95746F;
     border-right: 0;
     float: right;
     margin-top: 50px;
-    text-align: right;
-}
-
-.text2 {
-    float: right;
     text-align: right;
 }
 
