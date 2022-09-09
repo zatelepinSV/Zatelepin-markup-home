@@ -1,7 +1,16 @@
+@import "../../project/style.css";
+
+:root {
+    --button-bg-color: var(--vivid-orange);
+    --button-text-color: var(--vivid-orange);
+    --button-hover-color: var(--caparol);
+    --button-focus-color: var(--nerolac-rockslide);
+}
+
 .button {
     position: relative;
     display: inline-block;
-    color: #f45f0b;
+    color: var(--button-bg-color);
     text-transform: uppercase;
     text-decoration: none;
     font-size: 2rem;
@@ -12,7 +21,7 @@
 }
 
 .button:hover {
-    border: 1px solid #f45f0b;
+    border: 1px solid var(--caparol);
     transition: 4s;
     transition-delay: 1.2s;
 }
@@ -27,7 +36,7 @@
     left: -100%;
     width: 100%;
     height: 1px;
-    background: linear-gradient(90deg,transparent, #f45f0b);
+    background: linear-gradient(90deg,transparent, var(--caparol));
 }
 
 .button__line--bottom {
@@ -35,7 +44,7 @@
     right: -100%;
     width: 100%;
     height: 1px;
-    background: linear-gradient(270deg, transparent, #f45f0b);
+    background: linear-gradient(270deg, transparent, var(--caparol));
 }
 
 .button__line--right {
@@ -43,7 +52,7 @@
     bottom: -100%;
     height: 100%;
     width: 1px;
-    background: linear-gradient(0deg, transparent, #f45f0b);
+    background: linear-gradient(0deg, transparent, var(--caparol));
 }
 
 .button__line--left {
@@ -51,7 +60,7 @@
     top: -100%;
     height: 100%;
     width: 1px;
-    background: linear-gradient(180deg,transparent,#f45f0b);
+    background: linear-gradient(180deg, transparent, var(--caparol));
 }
 
 .button:hover .button__line--top {
@@ -75,5 +84,5 @@
 }
 
 .button:focus {
-    outline: 0.15em dotted black;
+    outline: 0.15em dotted var(--nerolac-rockslide);
 }

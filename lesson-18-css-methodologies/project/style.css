@@ -1,0 +1,12 @@
+@import "../components/button/button.css";
+
+
+:root {
+    --vivid-orange: #f45f0b;
+    --caparol: #f45f0b;
+    --nerolac-rockslide: #89888a;
+}
+
+body {
+    background-color: black;
+}
