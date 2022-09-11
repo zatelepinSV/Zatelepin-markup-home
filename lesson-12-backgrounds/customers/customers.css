@@ -1,0 +1,77 @@
+.mike, .john {
+    display: block;
+    margin: 10% auto;
+}
+
+.image1, .image2 {
+    float: left;
+    width: 60%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.image2 {
+    float: right;
+}
+
+#block1 {
+    width: 30%;
+    float: right;
+    text-align: right;
+    margin: 15% 5%;
+}
+
+#block2 {
+    width: 30%;
+    float: left;
+    margin: 15% 5%;
+}
+
+.clear {
+     clear: both;
+}
+
+ h1 {
+    color: red;
+}
+
+span {
+    color: #B3B3B3;
+    font-weight: bold;
+}
+/* этот вариант мне нравится больше
+
+.mike, .john {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+
+.john {
+    flex-direction: row-reverse;
+}
+
+.image1, .image2 {
+    width: 60%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#block1, #block2 {
+    width: 20%;
+    text-align: right;
+}
+
+#block2 {
+    text-align: left;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+span {
+    color: #B3B3B3;
+    font-weight: bold;
+}
+*/

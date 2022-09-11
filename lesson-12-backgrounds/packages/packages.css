@@ -1,0 +1,82 @@
+body {
+    background: url("../images/plans-background.jpg") no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#plus, #premium, #free {
+    float: left;
+    color: black;
+    width: 70%;
+    background-color: rgb(176, 176, 174, 0.8);
+    border: 3px solid #95746F;
+    border-left: 0;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+.text-plus, .text-premium, .text-free {
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    color: #A9A9A7;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.text-premium {
+    float: right;
+    text-align: right;
+}
+
+#premium {
+    width: 70%;
+    border: 3px solid #95746F;
+    border-right: 0;
+    float: right;
+    margin-top: 50px;
+    text-align: right;
+}
+
+#free {
+    float: left;
+    margin-top: 50px;
+    width: 70%;
+    background-color: rgb(146, 112, 110, 0.8);
+    border: 3px solid #95746F;
+    border-left: 0;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: rgb(176, 176, 174);
+}
+
+#plus h2:before {
+    position: relative;
+    right: 0;
+    top: -20px;
+    float: right;
+    content: "recommended";
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: 1px solid red;
+}
+/*
+.recommended {
+    background-color: red;
+    color: white;
+    float: right;
+    padding: 5px;
+}
+*/
